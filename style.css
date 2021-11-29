@@ -1,0 +1,12 @@
+canvas{
+    border: 6px solid pink;
+    border-radius: 20px;
+    animation-name:  example;
+    animation-duration: 5s;
+    margin-top: 75px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{ border: 6px solid pink;}
+    to{ border: 12px solid blue;}
+}
